@@ -87,11 +87,16 @@ To properly run, the simulation needs several inputs, namely:
 
 - **transition.table**, one dataframe for each variant included. Must at least have one "other"
 
-- **model.daily.table**, a dataframe to keep daily simulated data. Should have as many columns as the number of 
+- **model.daily.table**, a dataframe to keep daily simulated data. Should have as many columns as the number of compartments and sub-compartments in the model. Automatically generated in the code after defining all variants.
 
 ### Function inputs
 **tt.function()**
-  - For each variant included, 5 parameters can be inputed
+  - For each variant included, 5 parameters can be inputed:
+    1. max.days.of.vigilance.EI : maximum number of days of vigilance for high risk contacts that become infected (E->I)
+    2. mean.time.to.infection.EI : mean number days of vigilance for high risk contacts that become infected (E->I)
+    3. max.days.of.vigilance.ES : maximum number of days of vigilance for high risk contacts that return to susceptible (E->S)
+    4. mean.time.to.susceptible.ES : mean number days of vigilance for high risk contacts that return to susceptible (E->S)
+    5. infection.risk.not.vaccinated : risk of infection for each high risk contact (not vaccinated) to develop the infection
   
 
 ### Simulation Outputs
