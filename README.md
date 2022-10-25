@@ -15,7 +15,7 @@ Data on weekly prevalence of COVID-19 variants in Portugal :portugal: was collec
 
 ## Simulation description
 ### Epidemiological compartmental model
-![plot](https://github.com/marquescruz/covid19-cases-contact-tracing-simulation/blob/f5adffd33b71a6f9a7387ab7406cb35465c573dc/Modelo%20VSEI.png)
+![plot](https://github.com/marquescruz/covid19-cases-contact-tracing-simulation/blob/a9e45ece85e3bc17e08fab7524eb5ab5f01219a8/Modelo%20VSEI.png)
 
 Compartmental model used. 
 Legend: S – Susceptible individuals; E – Exposed individuals; E0, E1, E2, …, En – Sub-compartments of the exposed compartment. Each number represents the number of days since exposure; I - Infected individuals; V - Subset of susceptible individuals immune to SARS-CoV-2 infection through vaccination.
