@@ -6,7 +6,7 @@
 #' last_version: Oct. 2022
 #'==========================================================
 
-source("Functions.R")
+source("functions.R")
 
 # Parameterizations ####
 ## Population ####
